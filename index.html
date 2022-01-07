@@ -23,14 +23,16 @@
                     <div class="buttons">
                         <input class="btn" type="button" value="Edit" @click="Edit(user.id)"/>
                         <input class="btn" type="button" value="DELETE" @click.prevent="Delete(user.id)"/>
+
+                        
                     </div>
                 </div>
             </li>
         </ul>
         <p class="error">{{error}}</p>
         <form @submit.prevent="Add">
-            <input type="text" placeholder="Your name" v-model.trim="name">
-            <input type="number" placeholder="Your age" v-model="age">
+            <input type="text" placeholder="Name" v-model.trim="name">
+            <input type="number" placeholder="Age" v-model="age">
 
 
             <button class="btn" type="submit"> Add new user </button>

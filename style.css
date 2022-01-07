@@ -3,11 +3,14 @@
     padding:0 ;
     box-sizing: border-box;
 }
+main{
+    width: 60%;
+}
 
 .title{
-    padding: 1%;
+    padding: 2% 1%;
     border-bottom: 1px solid green;
-    width: max-content;
+    /* width: max-content; */
     margin-bottom: 5vh;
 }
 
@@ -22,7 +25,7 @@
 }
 
 .btn{
-    padding: 5px 15px;
+    padding: 10px 15px;
     background-color: rgb(240, 247, 181);
     text-transform:uppercase;
     border: none;
@@ -40,7 +43,7 @@ form{
     margin-left: 1%;
 }
 form input{
-    padding: 8px;
+    padding: 5px;
     font-size: larger;
 }
 
