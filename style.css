@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+.user-info{
+    background-color: aliceblue;
+    padding: 1%;
+    margin: 1%;
+    width: 50%;
+}
+
+.title{
+    padding: 1%;
+    border-bottom: 1px solid green;
+    width: max-content;
+}
+
+.btn{
+    padding: 5px 15px;
+    margin: 5px;
+    background-color: rgb(240, 247, 181);
+    text-transform:uppercase;
+    border: none;
+    border-radius: 5px;
+    
+}
+.btn:hover{
+    color: green;
+    cursor: pointer;
+}
